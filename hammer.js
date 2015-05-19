@@ -214,7 +214,7 @@ function inStr(str, find) {
  * @returns {Array} words
  */
 function splitStr(str) {
-    return str.trim().split(/\s+/g);
+    return str.trim().split(' ');
 }
 
 /**
